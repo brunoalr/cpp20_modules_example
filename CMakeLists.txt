@@ -50,6 +50,8 @@ target_sources(${PROJECT_NAME}
         PUBLIC
         FILE_SET cxx_modules TYPE CXX_MODULES FILES
         BasicPlane.Figures.cppm
+        BasicPlane.Figures-Point.cppm
+        BasicPlane.Figures-Rectangle.cppm
 )
 
 target_include_directories(${PROJECT_NAME}
